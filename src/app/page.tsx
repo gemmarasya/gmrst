@@ -250,7 +250,14 @@ function VlogCarousel({ vlogs }: { vlogs: typeof import("@/data/content").vlogs 
         {vlogs.map((vlog) => (
           <article key={vlog.id} className="carousel-card project-card">
             <div className="project-image">
-              <video className="project-video" src={vlog.video} controls preload="metadata" aria-label={vlog.title} />
+              <iframe
+                className="project-video"
+                src={vlog.video}
+                title={vlog.title}
+                allow="autoplay"
+                allowFullScreen
+                style={{ border: "none", width: "100%", height: "100%", display: "block" }}
+              />
             </div>
             <div className="p-5">
               <h3 className="display text-lg font-extrabold">{vlog.title}</h3>
