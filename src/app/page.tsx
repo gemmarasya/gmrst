@@ -254,9 +254,11 @@ function VlogCarousel({ vlogs }: { vlogs: typeof import("@/data/content").vlogs 
                 className="project-video"
                 src={vlog.video}
                 title={vlog.title}
-                allow="autoplay"
+                allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
-                style={{ border: "none", width: "100%", height: "100%", display: "block" }}
+                referrerPolicy="no-referrer-when-downgrade"
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
+                loading="lazy"
               />
             </div>
             <div className="p-5">

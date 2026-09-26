@@ -58,9 +58,9 @@ button { font: inherit; }
 
 /* ── Project / Vlog cards ── */
 .project-card { overflow: hidden; border: 1px solid rgba(45,43,42,.12); border-radius: 1.25rem; background: var(--paper); box-shadow: .4rem .45rem 0 rgba(45,43,42,.1); }
-.project-image { position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0; overflow: hidden; background: linear-gradient(135deg, #f3c866, #e98672); }
+.project-image { position: relative; width: 100%; overflow: hidden; background: #1a1a1a; aspect-ratio: 16 / 9; }
 .project-image span { line-height: 1.7; }
-.project-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; background: #2d2b2a; }
+.project-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; background: #1a1a1a; display: block; }
 
 /* ── Soundtrack ── */
 .soundtrack-section { background: #f3c866; }
@@ -101,7 +101,7 @@ button { font: inherit; }
 .carousel-track:active { cursor: grabbing; }
 .carousel-track::-webkit-scrollbar { display: none; }
 .carousel-card { flex: 0 0 calc(50% - 0.625rem); scroll-snap-align: start; }
-@media (max-width: 640px) { .carousel-card { flex: 0 0 calc(85% - 0.625rem); } }
+@media (max-width: 640px) { .carousel-card { flex: 0 0 calc(92% - 0.625rem); } }
 
 /* ── Memory Carousel ── */
 .memory-carousel-wrapper { position: relative; width: 100%; }

@@ -129,25 +129,25 @@ export const vlogs = [
     id: 1,
     title: "Our First Vlog",
     description: "Awal dari cerita kecil kita. Vlog pertama yang berisi momen sederhana, seru, dan jadi kenangan yang nggak terlupakan. ❤️",
-    video: "https://drive.google.com/file/d/1Y-2bXpGYgtzFglQmfnItziKOU1pJKg_J/preview",
+    video: "https://www.youtube.com/embed/I7L0TfCaVIM",
   },
   {
     id: 2,
     title: "Mall Date at Galaxy Mall",
     description: "Menghabiskan waktu bersama di Galaxy Mall. Mulai dari jalan-jalan, ngobrol, makan, sampai menikmati waktu berdua. 🛍️✨",
-    video: "https://drive.google.com/file/d/1ssIaXKRMmT-PtLcy0NZHFSDX6BRaVl-2/preview",
+    video: "https://www.youtube.com/embed/MgP9CMckqzs",
   },
   {
     id: 3,
     title: "Taman Harmoni Date",
     description: "Date santai di Taman Harmoni. Menikmati suasana, berjalan bersama, dan mengabadikan momen sederhana yang terasa spesial. 🌿🤍",
-    video: "https://drive.google.com/file/d/1gyiZ-UYxguQaHlnZN-NQfyFo5tBScrUo/preview",
+    video: "https://www.youtube.com/embed/b37y41h3ZS4",
   },
   {
     id: 4,
     title: "Taman Prestasi & Boat Date",
     description: "Petualangan kecil kita di Taman Prestasi. Jalan-jalan, menikmati suasana, lalu ditutup dengan naik perahu bersama. 🚤🌅❤️",
-    video: "https://drive.google.com/file/d/1NkYt4_u4E1lVUcXM0RxdiS6eDYTfyk8C/preview",
+    video: "https://www.youtube.com/embed/KZCqB9Ignp4",
   },
 ];
 
