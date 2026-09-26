@@ -260,6 +260,7 @@ function VlogCarousel({ vlogs }: { vlogs: typeof import("@/data/content").vlogs 
                 sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
                 loading="lazy"
               />
+              <div className="video-title-mask" aria-hidden="true" />
             </div>
             <div className="p-5">
               <h3 className="display text-lg font-extrabold">{vlog.title}</h3>
